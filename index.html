@@ -3,83 +3,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--  `<head>...</head>` contains details about the HTML file which is not visible in the browser.  -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--  `<head>...</head>` contains details about the HTML file which is not visible in the browser.  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <meta property="og:title" content="I coded a game with Zuitt!" />
+    <meta property="og:description" content="This Game Development project is powered by Zuitt Coding Bootcamp" />
+    <meta property="og:site_name" content="I coded a game with Zuitt!" />
+    <meta property="og:image" content="https://https://geraldtuyogon.github.io/jsfcb_tuyogon/" />
+    <meta property="og:image:secure_url" content="https://geraldtuyogon.github.io/jsfcb_tuyogon/" />
+  
 
+  <link rel="stylesheet" type="text/css" href="styles.css" >
 
-	<meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width", target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui>
-  <meta property="og:image" content="image/story-thumbnail-2048.jpg" />
-
-  <meta proerty="og:image:secure_url" content="[https://geraldtuyogon.github.io/jsfcb_tuyogon/" />
-
-    <link rel="stylesheet" type="text/css" href="styles.css" >
-
-	<title> 2048 </title>
-
+  <title> 2048 </title>
 
 
 </head>
 <body>
-	<div class="container">
-	
-		 <!-- `<body>...</body>` contains the actual content of the HTML file that are visible in the web browser -->
-		 <h1>2048</h1>
-		 <h2>Created by: Gerald</h2>
-		 <hr id="top-line">
+  <div class="container">
+  
+     <!-- `<body>...</body>` contains the actual content of the HTML file that are visible in the web browser -->
+     <h1>2048</h1>
+     <h2>Created by: Ayla Garra</h2>
+     <hr id="top-line">
 
-		 <div class="header-container">
-			 <div class="score-container">
-			 	<div class="score-label">Score: </div>
-			 	<div id="score">0</div>
-			 </div>
+     <div class="header-container">
+       <div class="score-container">
+        <div class="score-label">Score: </div>
+        <div id="score">0</div>
+       </div>
 
-			 <!-- <h2>Score: <span id="score">0</span></h2> -->
-			 <div class="share-button-container">
-			 	<div class="share-label">Share: </div>
-			 	<div class="share-icons">
-			 		<a href="https://www.facebook.com/sharer/sharer.php?u=[https://geraldtuyogon.github.io/jsfcb_tuyogon/]">
-			 			<img src="./images/share_2048-fb.svg" />
-			 		</a>
-			 	</div>
-			 </div>
-		</div>
+       <!-- <h2>Score: <span id="score">0</span></h2> -->
+       <div class="share-button-container">
+        <div class="share-label">Share: </div>
+        <div class="share-icons">
+          <a href="https://geraldtuyogon.github.io/jsfcb_tuyogon/">
+            <img src="./images/share_2048-fb.svg" />
+          </a>
+        </div>
+       </div>
+    </div>
 
 
-		 <!-- <div> tags are usually used as container to group contents -->
-		 <div id="board">
+     <!-- <div> tags are usually used as container to group contents -->
+     <div id="board">
 
-		 	<!-- <div class="tile x2">[r0, c0]</div>
-		 	<div class="tile x4">[r0, c1]</div>
-		 	<div class="tile x8">[r0, c2]</div>
-		 	<div class="tile x8192">[r0, c3]</div>
+      <!-- <div class="tile x2">[r0, c0]</div>
+      <div class="tile x4">[r0, c1]</div>
+      <div class="tile x8">[r0, c2]</div>
+      <div class="tile x8192">[r0, c3]</div>
 
-		 	<div class="tile">[r1, c0]</div>
-		 	<div class="tile">[r1, c1]</div>
-		 	<div class="tile">[r1, c2]</div>
-		 	<div class="tile">[r1, c3]</div>
+      <div class="tile">[r1, c0]</div>
+      <div class="tile">[r1, c1]</div>
+      <div class="tile">[r1, c2]</div>
+      <div class="tile">[r1, c3]</div>
 
-		 	<div class="tile">[r2, c0]</div>
-		 	<div class="tile">[r2, c1]</div>
-		 	<div class="tile">[r2, c2]</div>
-		 	<div class="tile">[r2, c3]</div>
+      <div class="tile">[r2, c0]</div>
+      <div class="tile">[r2, c1]</div>
+      <div class="tile">[r2, c2]</div>
+      <div class="tile">[r2, c3]</div>
 
-		 	<div class="tile">[r3, c0]</div>
-		 	<div class="tile">[r3, c1]</div>
-		 	<div class="tile">[r3, c2]</div>
-		 	<div class="tile">[r3, c3]</div> -->
+      <div class="tile">[r3, c0]</div>
+      <div class="tile">[r3, c1]</div>
+      <div class="tile">[r3, c2]</div>
+      <div class="tile">[r3, c3]</div> -->
 
-		 </div>
+     </div>
 
-	</div>
+  </div>
 
-	 <script src="logic.js"></script>
+   <script src="logic.js"></script>
 
 </body>
 </html>
